@@ -1,0 +1,71 @@
+.container {
+    @apply bg-white rounded-lg shadow-md overflow-hidden;
+}
+
+.tableWrapper {
+    @apply overflow-x-auto;
+}
+
+.table {
+    @apply w-full text-sm;
+}
+
+.tableHead {
+    @apply bg-slate-700 text-white;
+}
+
+.th {
+    @apply px-3 py-2 text-left;
+}
+
+.tableRow {
+    @apply border-b hover:bg-gray-50 transition-colors;
+}
+
+.td {
+    @apply px-3 py-2 text-center;
+}
+
+.driverName {
+    @apply font-medium text-left;
+}
+
+.mono {
+    @apply font-mono;
+}
+
+.totalTime {
+    @apply font-bold;
+}
+
+.weatherBadge {
+    @apply px-2 py-1 rounded text-xs font-medium;
+}
+
+.weatherDry {
+    @apply bg-orange-200 text-orange-800;
+}
+
+.weatherDamp {
+    @apply bg-gray-200 text-gray-800;
+}
+
+.weatherWet {
+    @apply bg-blue-200 text-blue-800;
+}
+
+.lowFuel {
+    @apply text-red-600 font-bold;
+}
+
+.goodFuel {
+    @apply text-green-600 font-bold;
+}
+
+.deleteIcon {
+    @apply h-4 w-4;
+}
+
+.totalRow {
+    @apply bg-blue-600 text-white font-bold;
+}

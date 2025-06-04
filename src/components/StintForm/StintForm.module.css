@@ -1,0 +1,15 @@
+.container {
+    @apply bg-white p-6 rounded-lg shadow-md mb-6;
+}
+
+.title {
+    @apply text-xl font-bold mb-4 text-gray-800;
+}
+
+.form {
+    @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-4;
+}
+
+.submitContainer {
+    @apply md:col-span-3 lg:col-span-6;
+}
