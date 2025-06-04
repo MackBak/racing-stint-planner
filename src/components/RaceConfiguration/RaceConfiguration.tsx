@@ -76,6 +76,14 @@ const RaceConfiguration: React.FC<RaceConfigurationProps> = ({ config, onConfigC
                         <div>{timeUtils.formatTime(config.laptimes.dry)}</div>
                     </div>
                     <div className={styles.infoItem}>
+                        <div className={styles.infoLabel}>Damp Laptime</div>
+                        <div>{timeUtils.formatTime(config.laptimes.damp)}</div>
+                    </div>
+                    <div className={styles.infoItem}>
+                        <div className={styles.infoLabel}>Wet Laptime</div>
+                        <div>{timeUtils.formatTime(config.laptimes.wet)}</div>
+                    </div>
+                    <div className={styles.infoItem}>
                         <div className={styles.infoLabel}>Pit Loss</div>
                         <div>{config.pitStopLoss}s</div>
                     </div>
