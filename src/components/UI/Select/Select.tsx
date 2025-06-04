@@ -1,7 +1,7 @@
-import React from 'react';
 import clsx from 'clsx';
 import type { SelectProps } from './Select.types';
 import styles from './Select.module.css';
+import {JSX} from "react";
 
 const Select = <T extends string | number | boolean>({
                                                          label,

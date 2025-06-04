@@ -3,7 +3,7 @@ import RaceConfiguration from '@/components/RaceConfiguration';
 import StintForm from '@/components/StintForm';
 import StintTable from '@/components/StintTable';
 import { useRaceConfig } from '@/hooks/useRaceConfig';
-import { useStints } from '@/hooks/useStints';
+import { useStints } from '@/hooks/useStints.ts';
 import styles from './App.module.css';
 
 const App: React.FC = () => {
