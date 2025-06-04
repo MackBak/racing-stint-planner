@@ -1,4 +1,4 @@
-/* RaceConfiguration.module.css*/
+/* src/components/RaceConfiguration/RaceConfiguration.module.css */
 
 .container {
     @apply bg-slate-800 text-white p-6 rounded-lg mb-6;

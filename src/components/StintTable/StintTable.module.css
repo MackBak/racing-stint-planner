@@ -1,4 +1,4 @@
-/* StintTable.module.css*/
+/* src/components/StintTable/StintTable.module.css */
 
 .container {
     @apply bg-white rounded-lg shadow-md overflow-hidden;

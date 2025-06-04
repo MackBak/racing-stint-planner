@@ -1,4 +1,4 @@
-/* StintForm.module.css*/
+/* src/components/StintForm/StintForm.module.css */
 
 .container {
     @apply bg-white p-6 rounded-lg shadow-md mb-6;
