@@ -1,4 +1,5 @@
 /* src/components/UI/Input/Input.module.css */
+@reference "../../../index.css";
 
 .container {
     @apply w-full;

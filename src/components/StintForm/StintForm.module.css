@@ -1,4 +1,5 @@
 /* src/components/StintForm/StintForm.module.css */
+@reference "../../index.css";
 
 .container {
     @apply bg-white p-6 rounded-lg shadow-md mb-6;

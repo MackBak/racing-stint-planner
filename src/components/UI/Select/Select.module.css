@@ -1,4 +1,5 @@
 /* src/components/UI/Select/Select.module.css */
+@reference "../../../index.css";
 
 .container {
     @apply w-full;

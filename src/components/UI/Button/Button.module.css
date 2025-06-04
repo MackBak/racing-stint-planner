@@ -1,4 +1,5 @@
 /* src/components/UI/Button/Button.module.css */
+@reference "../../../index.css";
 
 
 .button {
