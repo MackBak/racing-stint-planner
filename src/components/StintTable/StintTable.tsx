@@ -97,8 +97,7 @@ const StintTable: React.FC<StintTableProps> = ({ stints, config, onDeleteStint }
                             <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatTime(stint.pitStopTime)}</td>
                             <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatTime(stint.stintTime)}</td>
                             <td className={`${styles.td} ${styles.mono} ${styles.totalTime}`}>{timeUtils.formatTime(stint.totalTime)}</td>
-                            <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatClockTime(stint.totalTime)}</td>
-                            <td className={`${styles.td} ${stint.isLowFuel ? styles.lowFuel : styles.goodFuel}`}>
+                            <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatClockTime(stint.totalTime, config.raceStart)}</td>                            <td className={`${styles.td} ${stint.isLowFuel ? styles.lowFuel : styles.goodFuel}`}>
                                 {stint.fuelRemaining.toFixed(1)}L
                             </td>
                             <td className={styles.td}>
@@ -125,8 +124,7 @@ const StintTable: React.FC<StintTableProps> = ({ stints, config, onDeleteStint }
                         <td className={styles.td}>-</td>
                         <td className={styles.td}>-</td>
                         <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatTime(finalTotalTime)}</td>
-                        <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatClockTime(finalTotalTime)}</td>
-                        <td className={styles.td}>-</td>
+                        <td className={`${styles.td} ${styles.mono}`}>{timeUtils.formatClockTime(finalTotalTime, config.raceStart)}</td>                        <td className={styles.td}>-</td>
                         <td className={styles.td}>-</td>
                     </tr>
                     </tfoot>

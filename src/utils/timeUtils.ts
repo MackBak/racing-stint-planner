@@ -8,7 +8,8 @@ export const timeUtils = {
         return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
     },
 
-    formatClockTime: (totalSeconds: number, startTime: TimeValue = { hours: 12, minutes: 40, seconds: 0 }): string => {
+    // TODO: Make the field below adjustable. User needs to be able to change this depending on the race!
+    formatClockTime: (totalSeconds: number, startTime: TimeValue): string => {
         let totalSecs = startTime.hours * 3600 + startTime.minutes * 60 + startTime.seconds + totalSeconds;
         const hours = Math.floor(totalSecs / 3600) % 24;
         const minutes = Math.floor((totalSecs % 3600) / 60);
